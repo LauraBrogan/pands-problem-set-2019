@@ -3,6 +3,7 @@
 
 import datetime
 
+
 if datetime.datetime.today().weekday() == 1:
     print("Yes today begins with a T.")
 if datetime.datetime.today().weekday() == 3:
@@ -12,12 +13,24 @@ if datetime.datetime.today().weekday() == 3:
  
 # If today is Thursday please display to the user that yes today begins with a T.
 
-while datetime.datetime.today().weekday() == 0:
-    while datetime.datetime.today().weekday() == 2:
-        while datetime.datetime.today().weekday() == 5:
-            while datetime.datetime.today().weekday() == 6:
-                while datetime.datetime.today().weekday() == 7:
-                     print("Unfortunately today is not a day that begins with T.")
+if datetime.datetime.today().weekday() == 0:
+                        print("Unfortunately today is not a day that begins with T.")
+
+if datetime.datetime.today().weekday() == 2:
+                        print("Unfortunately today is not a day that begins with T.")
+
+if datetime.datetime.today().weekday() == 4:
+                        print("Unfortunately today is not a day that begins with T.")
+
+if datetime.datetime.today().weekday() == 5:
+                        print("Unfortunately today is not a day that begins with T.")
+
+if datetime.datetime.today().weekday() == 6:
+                        print("Unfortunately today is not a day that begins with T.")
+
+if datetime.datetime.today().weekday() == 7:
+                        print("Unfortunately today is not a day that begins with T.")
+
 # If today is not Tuesday or Thursday please display to the user that unfortunately today is not a day that begins with a T.
 
 # Laura Brogan 10/02/2019
