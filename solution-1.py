@@ -4,17 +4,18 @@
 n = int(input("Input a Positive Number: "))
 # n is asking the user to input a postive number
 
+total = 0
+
 if n < 0:
      print("Unfortunately this is not a positive integer") 
 quit() 
 
+while n > 0:
+    total = total + n
+    n = n - 1
+   
+print(total)
 
-sum = 0
-while (n>0):
-    sum += n
-    n-= 1
-
-print("This is the Sum", sum)
 
 
     #if the user inputs a negative number the programe displays "this is not a positive integer" and ends the program
