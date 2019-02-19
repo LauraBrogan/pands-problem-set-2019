@@ -3,13 +3,12 @@
 
 import datetime
 
-
 if datetime.datetime.today().weekday() == 1:
     print("Yes today begins with a T.")
-    
-if datetime.datetime.today().weekday() == 3:
-    print("Yes today begins with a T.")
 
+elif datetime.datetime.today().weekday() == 3:
+    print("Yes today begins with a T.")
+        
 # If today is Tuesday  or a Thursday please display to the user that yes today begins with a T. 
  
 else:
@@ -17,4 +16,4 @@ else:
 
 # If today is not Tuesday or Thursday please display to the user that unfortunately today is not a day that begins with a T.
 
-# Laura Brogan 10/02/2019
+# Laura Brogan 19/02/2019
