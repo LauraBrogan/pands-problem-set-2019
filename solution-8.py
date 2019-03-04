@@ -7,7 +7,9 @@ import datetime
 now = datetime.datetime.now()
 
 print("Todays Date and time:")
-print(now.strftime("%A,%B %d %Y at %I:%M %p"))
+%I = 
+%d = 
+print(now.strftime("%A, %B %d %Y at %I:%M %p"))
 
 
 
