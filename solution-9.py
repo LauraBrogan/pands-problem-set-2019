@@ -1,9 +1,11 @@
 # Solution to Problem 9
 # Program 
 
-f = open('Corastaunton.txt','r')
+with open('Corastaunton.txt','r') as f:
+    for l in f:
+        Print(1,1)
 
-s = f.read()
+
 
 
 
