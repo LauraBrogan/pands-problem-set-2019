@@ -7,12 +7,11 @@ import datetime
 now = datetime.datetime.now()
 
 print("Todays Date and time:")
-%I = 
-%d = 
+
 print(now.strftime("%A, %B %d %Y at %I:%M %p"))
 
 
 
-#Reference:https://www.saltycrane.com/blog/2008/06/how-to-get-current-date-and-time-in/
+# Reference:https://www.saltycrane.com/blog/2008/06/how-to-get-current-date-and-time-in/
 # Used lecture from week 6 as a base for the problem also looked at the Python tutorial.
 # Laura Brogan 

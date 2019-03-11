@@ -4,12 +4,13 @@
 
 n = (input("Please enter a sentence: "))
 #order using positional argument
-print(positional_order = "{1},{2}".format('n'))
-print('\n--- Positional Order ---')
-print(positional_order)
 
-
-
+count = 0
+    # process line
+for line in n:
+ count+=1
+if count % 2 == 0:
+    print(n)
 
 # Reference: https://www.programiz.com/python-programming/string
 # Laura Brogan 
