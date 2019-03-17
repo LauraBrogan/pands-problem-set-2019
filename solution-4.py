@@ -11,12 +11,13 @@ if n <= 0:
 
    
 # 
-# Reference 
+# Reference https://stackoverflow.com/q/33324432
 # Laura Brogan 
 
 
 def collatz(n):
     print(n)
+    #this will stop the program when it gets to one.
     while n != 1:
         if n % 2 == 0:
             n = n // 2
@@ -24,5 +25,4 @@ def collatz(n):
         else:
             n = n * 3 + 1
             print(n)
-collatz(n, end' ')
-
+collatz(n)
