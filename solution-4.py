@@ -9,12 +9,6 @@ if n <= 0:
     print("Unfortunately this is not a positive number.") 
     quit()
 
-   
-# 
-# Reference https://stackoverflow.com/q/33324432
-# Laura Brogan 
-
-
 def collatz(n):
     print(n)
     #this will stop the program when it gets to one.
@@ -25,4 +19,6 @@ def collatz(n):
         else:
             n = n * 3 + 1
             print(n)
-collatz(n)
+collatz (n)
+# Reference https://stackoverflow.com/q/33324432
+# Laura Brogan 
