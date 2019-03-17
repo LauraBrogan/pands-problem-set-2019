@@ -1,8 +1,8 @@
 # Solution to Problem 7
-# Ask the user to Input any positive floating point number and output an approximation of its aquare root..
+# Ask the user to Input any positive floating point number and output an approximation of its square root.
 import math
 
-# n is asking the user to input a postive number
+# n is asking the user to input a postive floating point number
 n = float(input("Input a Positive Floating Point Number: "))
 
 # If the user inputs a negative number or a zero the programe displays "this is not a positive number" and ends the program
@@ -17,9 +17,10 @@ while n > 0.0:
 #Verbatium lines 18-20 inc from reference 1 below
     n = float(n)
     number_sqrt = n ** 0.5
-    print("Square Root of Floating point number %0.2f is %0.2f" %(n, number_sqrt))
+    #Displays the number we are finding the root of with 2 decimal place the square root with 5 decimal places.
+    print("Square Root of Floating point number %0.2f is %0.5f" %(n, number_sqrt))
     quit()
 
-
+# Used solution 1 to 2019 problem set as the base for this answer.
 # Reference 1 https://codescracker.com/python/program/python-program-find-square-root.htm
-# Laura Brogan 
+# Laura Brogan 17/03/2019
