@@ -12,25 +12,20 @@
 
 
 
-#nl=[]
-#for x in range(1000, 10000):
- #if (x%6==0):
-   #     nl.append(str(x))
+nl=[]
+for x in range(1000, 10000):
+ if (x%6==0):
+      nl.append(str(x))
+      print(x)
 #print (','.join(nl))
-#while (x%12) !=0:
-  #   nl.append(str(x))
+while (x%12) !=0:
+   nl.append(str(x))
+   print(x)
 #print (','.join(nl))
 
-#quit()
+quit()
 
 #Reference: https://www.w3resource.com/python-exercises/python-conditional-exercise-1.php
 
 # Laura Brogan
 
-
-lower=1000
-upper=10000
-for i in range(lower,upper+1):
-   if (i%6==0):
-      while(i%12) !=0:
-       print (i)
