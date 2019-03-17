@@ -10,19 +10,31 @@ if i <= 0:
     quit()
 
 # If the user inputs a postive number greater than zero the program runs.   
-while i > 0.0:
-    def collatz(i):
-        while i != 1:
+if i > 0:
+    while i !=1:
+     def collatz(i):
+        if i % 2 == 0:
+         print(i // 2)
+         return i // 2
 
-            if i % 2==0:
-             i = (i//2)
-            #print(number)
-            return (print(int(i)))
+        elif i % 2 == 1:
+         result = 3 * i + 1
+         print(result)
+       
 
-        #elif i % 2==1:
-            # i = (3*i+1) 
+
+
+
+      #  while i != 1:
+          # if i % 2==0:
+           #  i = (i//2)
             #print(number)
-            #return (print(int(i)))
+           # return (print(int(i)))
+
+           # while i % 2==1:
+          #   i = (3*i+1) 
+            #print(number)
+           # return (print(int(i)))
 quit()  
         #continue
 
