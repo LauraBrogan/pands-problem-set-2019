@@ -4,8 +4,8 @@
 # To start we import the Python datetime module.
 import datetime
 
-
 # If today is Tuesday or Thursday please display to the user that yes today begins with a T.
+# If date and time today is Week day == 1 Means it is Tuesday, == 3 means it is Thursday.
 if datetime.datetime.today().weekday() == 1:
     print("Yes today begins with a T.")
 
@@ -17,5 +17,4 @@ else:
     print("Unfortunately today is not a day that begins with T.")
 
 # Used lecture on Tuesday program as a base for the problem.
-
 # Laura Brogan 19/02/2019
