@@ -8,16 +8,16 @@ import time
 now = dt.now()
 #def suffix(d):
     # return 'th' if 11<=d<=13 else {1:'st',2:'nd',3:'rd'}.get(d%10, 'th')
-t = time.localtime()
-suffix = 'st' if t.tm_mday in [1,21,31] else 'nd' if t.tm_mday in [2, 22] else 'rd' if t.tm_mday in [3, 23] else 'th'
+#t = time.localtime()
+suffix = 'st' if now in [1,21,31] else 'nd' if now in [2, 22] else 'rd' if now in [3, 23] else 'th'
 
 
 #def custom_strftime(format, t):
    # return t.strftime(format).replace('{S}', str(t.day) + suffix(t.day))
 print("Todays Date and time:")
-print(time.strftime('%d%%s %B %Y', t) % suffix)
+print(time.strftime('%A, %B %d%%s %Y', ) % suffix)
 #print custom_strftime ('%B %d, %Y', dt.now())
-#print (custom_strftime("%A, %B {S} %Y atdt.now() %I:%M %p"))
+#print (custom_strftime(", %B {S} %Y atdt.now() "))
 
 #print(time.strftime("%A, %B %d %Y at %I:%M %p"))
 
