@@ -1,6 +1,6 @@
 # Solution to Problem 7
 # Ask the user to Input any positive floating point number and output an approximation of its square root.
-# To start I import the Python math module
+# To start I import the Python math module.
 import math
 
 # n is asking the user to input a postive floating point number
@@ -16,10 +16,10 @@ while n > 0.0:
 # Verbatium lines 18-22 inc from reference 1 below.
 # n is the number the user inputs as a floating point number.
     n = float(n)
-# The built ini function calculates the square root of the inputted number.
+# The built in function calculates the square root of the inputted number.
     number_sqrt = n ** 0.5
-#Displays the number we are finding the root of with 1 decimal place the square root with 1 decimal place.
-    print("Square Root of Floating point number %0.1f is approx %0.1f" %(n, number_sqrt))
+# Displays the number we are finding the root of with 1 decimal place the square root with 1 decimal place.
+    print("The Square Root of Floating point number %0.1f is approx %0.1f" %(n, number_sqrt))
 # Closes the program
     quit()
 
