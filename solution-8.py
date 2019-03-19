@@ -3,7 +3,6 @@
 # To start we import the Python datetime module as dt.
 from datetime import datetime as dt
 
-
 #now equals the date and time now.
 now = dt.now()
 
