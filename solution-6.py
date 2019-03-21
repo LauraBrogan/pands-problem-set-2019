@@ -1,14 +1,21 @@
 # Solution to Problem 6
 # Ask the user to imput a sentence and output every second word.
 
-string = (input("Please enter a sentence: "))
-#order using positional argument
-even_words = string.split(' ')[::2]
-print(string)
 
 
 
+#even_words = string.split()[::2]
+#print(even_words, end =' ')
 
+
+
+words = (input("Please enter").lower().split())
+
+for word in words:
+    if word % 2 == 0:
+        print(word, end=' ') 
+
+# "things to those who wait"
 
 
 #count = 0
