@@ -1,35 +1,29 @@
 # Solution to Problem 6
 # Ask the user to imput a sentence and output every second word.
+#word=(input ("enter setence"))
+
+#even_words = word.split(' ')[::2]
+
+#print(word, 
+#end="")
+
+#print("\n")
+
+sentence = input("enter sentence: ")
+words = sentence.split (' ') [::2]
+for words in f:   
+    f= line.strip()      
+#vals = s.split(‘,’)     
+    #for val in vals:          
+print(line.strip)
 
 
 
 
-#even_words = string.split()[::2]
-#print(even_words, end =' ')
+#print(words)
+#print("\n")
 
-
-
-words = (input("Please enter").lower().split())
-
-for word in words:
-    if word % 2 == 0:
-        print(word, end=' ') 
-
-# "things to those who wait"
-
-
-#count = 0
-    # process line
-#for word in n:
- #count+=1
-#if count % 2 == 0:
-
-
-    
-
-#string = n
-#even_words = string.split('input')[::2]
-#print(n)
+#
 
 # Reference: https://stackoverflow.com/questions/54857129/write-a-program-that-takes-a-user-input-string-and-outputs-every-second-word
 # Reference: https://www.programiz.com/python-programming/string
