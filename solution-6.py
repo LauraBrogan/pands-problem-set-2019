@@ -1,11 +1,10 @@
 # Solution to Problem 6
 # Ask the user to imput a sentence and output every second word.
 
-
 string = (input("Please enter a sentence: "))
 #order using positional argument
-even_words = string.split('string')[::2]
-print(even_words)
+even_words = string.split(' ')[::2]
+print(string)
 
 
 
