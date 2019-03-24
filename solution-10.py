@@ -1,17 +1,16 @@
 # Solution to Problem 10
-
+# Display plot of punction x, x^2, 2^x in the range [0,4].
+# Start by importing matplotlib.pyplot which  is a collection of command style functions that make matplotlib work like MATLAB. 
+# Each pyplot function makes some change to a figure: e.g., creates a figure, creates a plotting area in a figure, plots some lines in a plotting area, decorates the plot with labels, etc
+# I import it as pl for short.
 import matplotlib.pyplot as pl
-#lines = pl.plot(x, x^2, 2^x)
+# For this example x is two
 x = 2
-#y1 = x
+lines = pl.plot(x, x^2, 2^x)
 pl.plot([0,4])
-#pl.setp(lines'color','g', 'linewidth', 4.0)
+pl.setp(color='grey', linestyle='-', linewidth=0.25, alpha=0.5) 
+#pl.setp(lines 'color', 'y' 'linewidth', 10.0)
 pl.ylabel('Plot of functions')
-#y2 = x^2
-y3 = 2^x
-
-
-
 pl.show()
 
 
