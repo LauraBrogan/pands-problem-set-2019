@@ -2,21 +2,23 @@
 # Display plot of punction x, x^2, 2^x in the range [0,4].
 # Start by importing matplotlib.pyplot which  is a collection of command style functions that make matplotlib work like MATLAB. 
 # Each pyplot function makes some change to a figure: e.g., creates a figure, creates a plotting area in a figure, plots some lines in a plotting area, decorates the plot with labels, etc
-# I import it as pl for short.
+# I import matplotlib.pyplot as pl for short.
 import matplotlib.pyplot as pl
 # For this example x is two
 x = 2
-lines = pl.plot(x, x^2, 2^x)
+# Lines is the plot of each of the expressions in red. 
+lines = pl.plot(x, x^2, 2^x,'r')
+# Plotting for the range 0-4.
 pl.plot([0,4])
-pl.setp(color='grey', linestyle='-', linewidth=0.25, alpha=0.5) 
-#pl.setp(lines 'color', 'y' 'linewidth', 10.0)
-pl.ylabel('Plot of functions')
+# The graph has title name Plot of Functions 2019.
+pl.title('Plot of Functions 2019')#
+# The graphs y and x axis are labeled accordingly. 
+pl.ylabel('Y Axis Values')
+pl.xlabel('Axis Values')
+# Diagram is displayed to the user. 
 pl.show()
 
 
-# use keyword args
-
-# or MATLAB style string value pairs
-#plt.setp(lines, 'color', 'r', 'linewidth', 2.0)
-#https://matplotlib.org/1.4.2/users/pyplot_tutorial.html
-#https://www.oreilly.com/library/view/python-data-science/9781491912126/ch01.html#help-and-documentation-in-ipython
+# Reference:https://matplotlib.org/1.4.2/users/pyplot_tutorial.html
+# Reference: https://www.oreilly.com/library/view/python-data-science/9781491912126/ch01.html#help-and-documentation-in-ipython
+# Laura Brogan 24/03/19
