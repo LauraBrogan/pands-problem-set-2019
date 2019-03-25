@@ -19,12 +19,13 @@ I was completely new to programming and used both class lectures, skype call, on
 2. From the comand line interface open the folder pands-problem-set-2019
 3. For each solution to run enter eg. python solution-1.py etc. and follow the prompts.
 4. > [!IMPORTANT] > This is IMPORTANT
+    
     For Soultion 9 when you enter phyton solution-9.py you will then be asked to enter file name please enter staunton.txt.
 
 
 ## What each file contains
 
-1. **solution-1.py** contains my solution to problem 1 in the problem set.
+1. **solution-1.py** *contains my solution to problem 1 in the problem set.*
 
     This program asks the user to input a positive integer and then outputs the sum of all the nubmers between one and that number.  I have included in my program that it alerts the user if they have not inputed a positve number.
 
@@ -63,6 +64,9 @@ I was completely new to programming and used both class lectures, skype call, on
     To start when solution-9.py is run it asks the user to input *"Please open text file:"* the user must then enter *"staunton.txt"* and when this is done it will return to the user every second line of this text docoument. 
 
 10. **solution-10.py** *contains my solution to problem 10 in the problem set.*
+
+    This program is a plot of the function x, x^2 and 2^x in the range [0,4]
+    
 
 ## References
 I used GMIT Video Lectures by Ian McLoughlin, Class Skype call and notes to complete this work.
