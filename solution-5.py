@@ -3,25 +3,25 @@
 
 # y is asking the user to input a postive integer.
 y = int(input("Please enter a positive integer: "))
-# take input from the user if it is greather than or 
+# Take input from the user if it is less than 0 display to user that this is not a positive interger and quit the programme.
 if y < 1:
     print("Unfortunately this is not a positive integer.") 
     quit()
-
-# prime numbers are greater than 1
+# If the user inputs 1, let them know this is not a prime number and quit
+if y == 1:
+    print("That is not a prime number.") 
+    
+# Prime numbers are greater than 1, if y is greater than 1
 if y > 1:
-   # check for factors
+   # check for factors if y is divisible by 2 it is not a prime number
    for i in range(2,y):
        if (y % i) == 0:
            print(y,"is not a prime number.")
            break
+# Else it is divisible by 2 and it is a prime number. 
    else:
        print("That is a prime number.")
        
-# if input number is less than
-# or equal to 1, it is not prime
-#else:
-   #print(num,"is not a prime number")
 
-#  https://www.programiz.com/python-programming/examples/prime-number
-# Laura Brogan
+# Reference: https://www.programiz.com/python-programming/examples/prime-number
+# Laura Brogan 25/03/2019
