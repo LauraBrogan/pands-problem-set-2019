@@ -41,7 +41,20 @@ I was completely new to programming and used both class lectures, skype call, on
 9. **solution-9.py** contains my solution to problem 9 in the problem set.
 
 
-1. **solution-9.py** contains my solution to problem 9 in the problem set.
+10. **solution-10.py** contains my solution to problem 10 in the problem set.
 
 ## References
-List Reference and I used ?? in form of my solutions, as commended in the code. 
+I used Ian McLoughlin Lecturer GMIT Video Lectures, Skype call and notes to complete this work.
+In addtion I searched on line using some of the following sites:
+[Stack Over Flow](www.stackoverflow.com)
+[San foundry](www.sanfoundry.com/)
+[w3resource](www.w3resource.com)
+[Programiz](www.programiz.com)
+[HackerRank](www.hackerrank.com)
+[CodesCracker](www.codescracker.com)
+[SaltyCrane](www.saltycrane.com)
+[Daniweb](www.daniweb.com)
+[Matplotlib](matplotlib.org)
+[O'Reilly](www.oreilly.com)
+
+For each solution the specific references are commented in the code, with links to each spicifc part of the above sites which relate to that solution. 
