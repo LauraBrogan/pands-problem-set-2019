@@ -23,9 +23,11 @@ I was completely new to programming and used both class lectures, skype call, on
 ## What each file contains
 
 1. **solution-1.py** contains my solution to problem 1 in the problem set.
-
+This program asks the user to input a positive integer and then outputs the sum of all the nubmers between one and that number.  I have included in my program that it alerts the user if they have not inputed a positve number.
 
 2. **solution-2.py** contains my solution to problem 2 in the problem set.
+
+When we run this program it outputs to the user if today is a day that begins with letter T.  
 
 3. **solution-3.py** contains my solution to problem 2 in the problem set.
 
@@ -48,14 +50,23 @@ I was completely new to programming and used both class lectures, skype call, on
 I used Ian McLoughlin Lecturer GMIT Video Lectures, Skype call and notes to complete this work.
 In addtion I searched on line using some of the following sites:
 *[Stack Over Flow](www.stackoverflow.com)
+
 *[San foundry](www.sanfoundry.com/)
+
 *[w3resource](www.w3resource.com)
+
 *[Programiz](www.programiz.com)
+
 *[HackerRank](www.hackerrank.com)
+
 *[CodesCracker](www.codescracker.com)
+
 *[SaltyCrane](www.saltycrane.com)
+
 *[Daniweb](www.daniweb.com)
+
 *[Matplotlib](matplotlib.org)
+
 *[O'Reilly](www.oreilly.com)
 
 For each solution the specific references are commented in the code, with links to each spicifc part of the above sites which relate to that solution. 
