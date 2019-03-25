@@ -1,11 +1,11 @@
 # Programming and Scripting Problem Set 2019
 
-This repoository contains my soluiotn to 2019 Problem Set for the Programing and Scripting Moudule at GMIT.
+This repository contains my solution to 2019 Problem Set for the Programing and Scripting Moudule at GMIT.
 I commenced work on 9th February 2019 and complted the task by the due date of March 31st 2019.
 
-I was completely new to programming and used both class lectures, sky call, on line tutorials and on line code examples to complete the tasks. 
+I was completely new to programming and used both class lectures, skype call, on line tutorials and on line code examples to complete the tasks.  As not overly familiar with algebra struggled a little with some of the matametics problems.
 
-[See here for the Problme Set Instruction 2019]()
+[See here for the Problme Set Instructions 2019]()
 
 ## My Repositiory can be download from git hub 
 1. Go to Git Hub using the following link (https://github.com/LauraBrogan/pands-problem-set-2019)
@@ -14,13 +14,34 @@ I was completely new to programming and used both class lectures, sky call, on l
 
 ## Running the Code
 1. Make sure you have python installed.
-2. From the comand line interface open the folder pands=problem-set-2019
-3. For each solution to run enter eg python soultion-1.py and follow the prompts.
-4. For Soultion 9 
+2. From the comand line interface open the folder pands-problem-set-2019
+3. For each solution to run enter eg. python solution-1.py etc. and follow the prompts.
+4. For Soultion 9 when you enter phyton solution-9.py you will then be asked to enter file name please enter staunton.txt.
+
 
 ## What each file contains
 
-1. solution-1.py contains my solution to problem 1 in the problem set
+1. **solution-1.py** contains my solution to problem 1 in the problem set.
+
+
+2. **solution-2.py** contains my solution to problem 2 in the problem set.
+
+3. **solution-3.py** contains my solution to problem 2 in the problem set.
+
+4. **solution-4.py** contains my solution to problem 4 in the problem set.
+
+5. **solution-5.py** contains my solution to problem 5 in the problem set.
+
+6. **solution-6.py** contains my solution to problem 6 in the problem set.
+
+7. **solution-7.py** contains my solution to problem 7 in the problem set.
+
+8. **solution-8.py** contains my solution to problem 8 in the problem set.
+
+9. **solution-9.py** contains my solution to problem 9 in the problem set.
+
+
+1. **solution-9.py** contains my solution to problem 9 in the problem set.
 
 ## References
 List Reference and I used ?? in form of my solutions, as commended in the code. 
