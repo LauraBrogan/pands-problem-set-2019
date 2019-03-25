@@ -1,4 +1,5 @@
 # Programming and Scripting Problem Set 2019
+...........
 
 This repository contains my solution to 2019 Problem Set for the Programing and Scripting Moudule at GMIT.
 I commenced work on 9th February 2019 and complted the task by the due date of March 31st 2019.
@@ -46,15 +47,15 @@ I was completely new to programming and used both class lectures, skype call, on
 ## References
 I used Ian McLoughlin Lecturer GMIT Video Lectures, Skype call and notes to complete this work.
 In addtion I searched on line using some of the following sites:
-[Stack Over Flow](www.stackoverflow.com)
-[San foundry](www.sanfoundry.com/)
-[w3resource](www.w3resource.com)
-[Programiz](www.programiz.com)
-[HackerRank](www.hackerrank.com)
-[CodesCracker](www.codescracker.com)
-[SaltyCrane](www.saltycrane.com)
-[Daniweb](www.daniweb.com)
-[Matplotlib](matplotlib.org)
-[O'Reilly](www.oreilly.com)
+*[Stack Over Flow](www.stackoverflow.com)
+*[San foundry](www.sanfoundry.com/)
+*[w3resource](www.w3resource.com)
+*[Programiz](www.programiz.com)
+*[HackerRank](www.hackerrank.com)
+*[CodesCracker](www.codescracker.com)
+*[SaltyCrane](www.saltycrane.com)
+*[Daniweb](www.daniweb.com)
+*[Matplotlib](matplotlib.org)
+*[O'Reilly](www.oreilly.com)
 
 For each solution the specific references are commented in the code, with links to each spicifc part of the above sites which relate to that solution. 
