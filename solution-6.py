@@ -9,13 +9,13 @@
 
 #print("\n")
 
-sentence = input("enter sentence: ")
+sentence = input("Please Enter a Sentence: ")
 words = sentence.split (' ') [::2]
-for words in f:   
-    f= line.strip()      
+for words in sentence:   
+    sentence= sentence.split()      
 #vals = s.split(‘,’)     
     #for val in vals:          
-print(line.strip)
+print(sentence.split)
 
 
 
