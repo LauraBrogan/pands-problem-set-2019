@@ -18,7 +18,6 @@ pl.xlabel('Axis Values')
 # Diagram is displayed to the user. 
 pl.show()
 
-
 # Reference:https://matplotlib.org/1.4.2/users/pyplot_tutorial.html
 # Reference: https://www.oreilly.com/library/view/python-data-science/9781491912126/ch01.html#help-and-documentation-in-ipython
 # Laura Brogan 24/03/19

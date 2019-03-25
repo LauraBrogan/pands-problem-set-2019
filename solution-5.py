@@ -22,6 +22,5 @@ if y > 1:
    else:
        print("That is a prime number.")
        
-
 # Reference: https://www.programiz.com/python-programming/examples/prime-number
 # Laura Brogan 25/03/2019

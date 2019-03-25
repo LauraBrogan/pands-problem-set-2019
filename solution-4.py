@@ -27,5 +27,6 @@ def collatz(n):
             n = n * 3 + 1
             print(n)
 collatz(n)
+
 # Reference https://stackoverflow.com/q/33324432
 # Laura Brogan 25/03/19
