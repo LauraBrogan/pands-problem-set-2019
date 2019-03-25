@@ -23,7 +23,7 @@ I was completely new to programming and used both class lectures, skype call, on
     For Soultion 9 when you enter phyton solution-9.py you will then be asked to enter file name please enter staunton.txt.
 
 
-## What each file contains
+## What Each File Contains:
 
 1. **solution-1.py** *contains my solution to problem 1 in the problem set.*
 
@@ -65,7 +65,7 @@ I was completely new to programming and used both class lectures, skype call, on
 
 10. **solution-10.py** *contains my solution to problem 10 in the problem set.*
 
-    This program is a plot of the function x, x^2 and 2^x in the range [0,4]
+    This program is a plot of the function x, x^2 and 2^x in the range 0,4 which is displayed on a diagram. 
     
 
 ## References
