@@ -20,7 +20,7 @@ I was completely new to programming and used both class lectures, skype call, on
 3. For each solution to run enter eg. python solution-1.py etc. and follow the prompts.
 4. > [!IMPORTANT] > This is IMPORTANT
     
-    For Soultion 9 when you enter phyton solution-9.py you will then be asked to enter file name please enter staunton.txt.
+    For Soultion 9 when you enter phyton solution-9.py you will then be asked to enter file name please enter staunton.txt
 
 
 ## What Each File Contains:
@@ -31,7 +31,7 @@ I was completely new to programming and used both class lectures, skype call, on
 
 2. **solution-2.py** *contains my solution to problem 2 in the problem set.*
 
-    When we run this program it outputs to the user if today is a day that begins with letter T or not.  
+    When we run this program it outputs to the user if today is a day that begins with letter T or not.  This solution was based on class lectures on today is Tuesday. 
 
 3. **solution-3.py** *contains my solution to problem 2 in the problem set.*
 
@@ -43,29 +43,29 @@ I was completely new to programming and used both class lectures, skype call, on
 
 5. **solution-5.py** *contains my solution to problem 5 in the problem set.*
 
-    This program asks the user to input a positive interger and then it tells the user if that number is a prime number or not. I have included that the users gets a message if they enter a number that is not positive. 
+    This program asks the user to input a positive interger and then it tells the user if that number is a prime number or not. I have included that the users gets a message if they enter a number that is not positive. Comments in my code explain each step of the process. 
 
 6. **solution-6.py** *contains my solution to problem 6 in the problem set.*
 
     This program asks the user to input a string sentence and outputs every second word. 
-    For this I have split the sentence and taken out every second word thats even and then joined the sentence back together to display to the user. 
+    For this I have split the sentence and taken out every second word thats even and then joined the sentence back together to display to the user. It displays words 1, 3, 5 etc.
 
 7. **solution-7.py** *contains my solution to problem 7 in the problem set.*
 
-    This program ask the user to enter a positive number, it converts it to a floating point number and then gets the approximate square root of the number and displays to the user. 
+    This program asks the user to enter a positive number, it converts it to a floating point number and then gets the approximate square root of the number and displays to the user with one decimial place the code can be written to have any number of decimal places. 
 
 8. **solution-8.py** *contains my solution to problem 8 in the problem set.*
 
-    This program imports python date time module and prints to the user todays date and time in the format "Day, Month Date Year at time am/pm.
+    This program imports python date time module and prints to the user todays date and time in the format "Day, Month Date Year at time am/pm.  Took some time to figure how to get the th on the date and to remove the leading 0 form the time in the afternoon. 
 
 9. **solution-9.py** *contains my solution to problem 9 in the problem set.*
 
     This task was to write a program that reads in a text file and outputs every second line.
-    To start when solution-9.py is run it asks the user to input *"Please open text file:"* the user must then enter *"staunton.txt"* and when this is done it will return to the user every second line of this text docoument. 
+    To start when solution-9.py is run it asks the user to input *"Please open text file:"* the user must then enter *"staunton.txt"* and when this is done it will return to the user every second line of this text docoument. I didn't use the sys.arg function for this question as I wanted the user to be prompted to enter the file name.  I also had issues early in the project with my text files and decided this was the best option for me at this time to complete this task. 
 
 10. **solution-10.py** *contains my solution to problem 10 in the problem set.*
 
-    This program is a plot of the function x, x^2 and 2^x in the range 0,4 which is displayed on a diagram. 
+    This program is a plot of the function x, x^2 and 2^x in the range 0,4 which is displayed on a diagram. As mathematics not my strong point struggled and little unsure of working the problem correctlty. 
     
 
 ## References

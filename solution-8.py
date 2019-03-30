@@ -14,7 +14,7 @@ suffix = 'st' if now in [1,21,31] else 'nd' if now in [2, 22] else 'rd' if now i
 print("Todays Date and time:") 
 # Below displays to the user a the date and time in a string in inverted commas todays date and time in the format Day, Month Date year at Current Time am/pm.
 # Used Reference 3 below to remove the leading 0 when desplaying the time. 
-print(now.strftime("%A, %B %d%%s %Y at %#I:%M %p" , ) % suffix,)
+print(now.strftime('%A, %B %d%%s %Y at %#I:%M %p',) % suffix,)
 
 # Reference 1: https://stackoverflow.com/a/11645978
 # Reference 2: https://www.saltycrane.com/blog/2008/06/how-to-get-current-date-and-time-in/

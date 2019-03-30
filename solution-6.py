@@ -7,7 +7,7 @@ user = input("Please Enter a Sentence:")
 # This splits the users input into string called even of every second word.
 even = user.split(' ')[::2]
 
-# Then we join the split back together with just the even works and call it display.
+# Then we join the split back together with just the odd words and called it display.
 display = " ".join(even)
 
 # This diplays every second word in the sentence to the user. 

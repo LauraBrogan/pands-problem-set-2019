@@ -9,11 +9,11 @@ userinput = input("Please open text file:")
 
 with open(userinput,'r') as f:
 # We use the built in enumberate function to count the lines.
-       for x, line in enumerate(f):
+      for x, line in enumerate(f):
  # For every line that is divisable by two starting at line 1.
-          if x % 2 == 1:
+         if x % 2 == 1:
  # We print that line therefore displaying every second line of the text file to the user. 
-            print(line)
+                print(line)
       
 # Reference: https://www.daniweb.com/programming/software-development/threads/283568/delete-every-second-line
 # Reference: https://stackoverflow.com/a/30551984
